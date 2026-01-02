@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Appearance",
+    "description": "Go from light mode to dark mode and vice versa",
+    "version": "1.0.0",
+    "background": {
+        "service_worker": "popup.js" 
+    },
+    "action": { 
+        "default_title": "Appearance",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs", 
+        "scripting" 
+    ],
+    "host_permissions": [ 
+        "https://*/*",
+        "http://*/*"
+    ]
+}
